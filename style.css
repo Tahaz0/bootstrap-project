@@ -1,0 +1,215 @@
+.bg{
+    background-color: #00CDCD;
+}
+
+/************** nav starts************** */
+.navbar .nav-item{
+    padding: 6px 12px;
+}
+nav{
+    position: fixed !important;
+    width: 100%;
+    height: 64px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.navbar .nav-item .nav-link{
+    font-size: 15px;
+    color: white !important;
+    font-weight: 480;
+}
+.navbar .nav-item .nav-link:hover {
+    border-bottom: 1px solid white;
+}
+/************** nav end************** */
+
+
+/* ******banner starts ************** */
+
+.banner{
+    background-color: #00CDCD;
+    padding-top: 80px;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+    height: 890px;
+}
+.banner .banner-text{
+    margin-top: 50%;
+}
+.banner .banner-text p{
+    font-size: 18px;
+    font-weight: 490;
+    color: white;
+}
+.banner .banner-text h1{
+    color: white;
+    font-size: 63px;
+}
+.banner .banner-text .btn{
+    padding: 12px 30px;
+    border-radius: 25px;
+    margin-top: 1em;
+    color: #049999;
+    transition: .5s;
+}
+.banner .banner-text .btn:hover{
+    background-color: rgba(245, 175, 24, 0.911);
+}
+
+/* ******banner ends ************** */
+
+
+
+/* ******banner card starts ************** */
+
+#banner-card{
+    margin-top: 110px;
+    padding-bottom: 70px;
+}
+#banner-card .card{
+    background-color: #00CDCD;
+    border: none;
+    border-radius: 0%;
+}
+#banner-card .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#banner-card .card .card-body .card-title{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+}
+#banner-card .card .card-body .card-title i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 44px;
+    color: #00CDCD;
+}
+#banner-card .card .card-body .card-subtitle{
+    padding-top: 11px;
+    padding-bottom: 13px;
+    font-size: 24px;
+    color: white !important;
+    font-weight: 400;
+}
+#banner-card .card .card-body .card-text{
+    color: white;
+    font-size: 18px;
+}
+#banner-card .card:hover .card-title i{
+    color: rgba(245, 175, 24, 0.911);
+    transition: .5s;
+}
+
+/* ******banner card  ends ************** */
+
+/* ********** about starts *********** */
+#about{
+    margin-top: 70px;
+}
+.about-bg{
+    background: url("https://c8.alamy.com/comp/2D7657M/talipot-leaves-simple-shapes-seamless-doodle-pattern-light-random-tropical-foliage-silhouettes-on-navy-blue-background-for-fabric-design-textile-pr-2D7657M.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-bg .about-overly{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .9;
+}
+.about-bg .about-text{
+    padding-bottom: 47px;
+    margin-top: 30px;
+}
+.about-bg .about-text h1{
+    font-weight: 700;  
+}
+.about-bg .about-text p{
+    font-size: 17px;
+}
+.about-bg .about-text-body .col-md-6{
+    padding-bottom: 40px;
+}
+.about-bg .about-text-body i{
+    font-size: 36px;
+    color: #00CDCD;
+    padding-bottom: 8px;
+}
+
+/* ********** about ends **************** */
+
+
+/* ********** features starts **************** */
+
+#features{
+    margin-top: 60px;
+}
+#features .feature-heading{
+    text-align: center;
+}
+.feature-heading h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.feature-heading span{
+    color: #00CDCD;
+}
+.feature-heading p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.ftur-left-text{
+    padding-top: 105px;
+    text-align: right;
+}
+.ftur-left-text h4{
+    font-size: 18px;
+    display: inline;
+}
+.ftur-left-text i{
+    padding-left: 10px;
+    color: #00CDCD;
+    font-size: 22;
+}
+.ftur-left-text p{
+    padding-top: 8px;
+}
+
+
+.ftur-right-text h4{
+    font-size: 18px;
+    display: inline;
+}
+.ftur-right-text i{
+    padding-right: 10px;
+    color: #00CDCD;
+    font-size: 22;
+}
+.ftur-right-text p{
+    padding-top: 8px;
+}
+.ftur-right-text{
+    padding-top: 105px;
+    text-align: left;
+}
+/* ********** features ends **************** */
